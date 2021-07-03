@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering SYSTEM "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+ 
+<hibernate-reverse-engineering>
+ 
+    <type-mapping>
+        <sql-type jdbc-type="INTEGER" name="Int" hibernate-type="java.lang.Integer" />
+    </type-mapping>
+
+    <table schema="public" name="users" class="com.studio.asylum.entity.User"/>
+    <table schema="public" name="user_follows" class="com.studio.asylum.entity.UserFollow"/>
+    <table schema="public" name="articles" class="com.studio.asylum.entity.Article"></table>
+    <table schema="public" name="article_favorites" class="com.studio.asylum.entity.ArticleFavorite"></table>
+    <table schema="public" name="article_tags" class="com.studio.asylum.entity.ArticleTag"></table>
+    <table schema="public" name="comments" class="com.studio.asylum.entity.Comment"></table>
+    <table schema="public" name="tags" class="com.studio.asylum.entity.Tag"></table>
+ 
+</hibernate-reverse-engineering>
